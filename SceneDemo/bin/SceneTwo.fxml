@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SceneTwoController">
+   <children>
+      <Label fx:id="label" layoutX="130.0" layoutY="75.0" prefHeight="50.0" prefWidth="130.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="button" layoutX="155.0" layoutY="300.0" mnemonicParsing="false" onAction="#handle" prefHeight="50.0" prefWidth="90.0" text="Button" />
+   </children>
+</AnchorPane>
